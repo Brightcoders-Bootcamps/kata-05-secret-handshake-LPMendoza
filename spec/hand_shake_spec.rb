@@ -11,8 +11,7 @@ describe HandShake do
   describe '.get_handshake' do
     it 'Return a normal secret handshake array' do
       expected = ['wink', 'double blink']
-      #3
-      expect(@hand.get_handshake(5)).to eq(expected)
+      expect(@hand.get_handshake(3)).to eq(expected)
     end
     it 'Return a reversed secret handshake array' do
       expected = ['double blink', 'wink']
